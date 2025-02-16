@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="defines.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EchoServer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EchoServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3f249f74-8811-4d77-91fd-ab620239a92f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
